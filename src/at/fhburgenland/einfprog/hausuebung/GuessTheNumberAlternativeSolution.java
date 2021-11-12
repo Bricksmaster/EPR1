@@ -7,6 +7,8 @@ Ich habe versucht mit einer do-while-Schleife "Bonus 2" zu lösen, was mir leide
 da ich den String aus newGameInput nicht mit .equals() im While vergleichen konnte.
 Ich habe mich etwas eingelesen und eine Lösung mittels der Rekursion gefunden. So konnte ich das Problem lösen.
 Sofern Sie einen Lösungsweg für "Bonus 2" mit den bestehenden Methoden haben, würde ich diesen sehr gerne sehen. :D
+
+Die Lösung, welche ich zur Beurteilung abgebe, heißt "GuessTheNumber".
  */
         public static void main(String[] args) {
 

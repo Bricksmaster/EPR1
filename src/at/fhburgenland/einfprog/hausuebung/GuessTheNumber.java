@@ -1,6 +1,5 @@
 package at.fhburgenland.einfprog.hausuebung;
 
-
 import java.util.Random;
 
 public class GuessTheNumber {
@@ -16,7 +15,7 @@ public class GuessTheNumber {
               while(true) {
 
                   java.util.Scanner scanner = new java.util.Scanner((System.in));
-                  System.out.print("\nInput: ");
+                  System.out.print("\nGuess the number: ");
                   String input = scanner.nextLine();
 
                   int guess = Integer.parseInt(input);

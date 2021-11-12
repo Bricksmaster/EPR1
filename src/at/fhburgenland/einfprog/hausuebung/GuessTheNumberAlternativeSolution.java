@@ -1,6 +1,6 @@
 package at.fhburgenland.einfprog.hausuebung;
 import java.util.Random;
-public class GuessTheNumberFinal {
+public class GuessTheNumberAlternativeSolution {
 /*
 Anmerkung zu dieser Aufgabe:
 Ich habe versucht mit einer do-while-Schleife "Bonus 2" zu lösen, was mir leider nicht gelungen ist,

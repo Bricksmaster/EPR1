@@ -21,18 +21,20 @@ public class StudentSelector {
                 "Jesse"
         };
 
-        while (true){
+        Random r = new Random();
+        java.util.Scanner scanner = new java.util.Scanner((System.in));
 
-            Random r = new Random();
+        boolean endLoop = false;
+        while (!endLoop){
+
             int number = r.nextInt(students.length);
 
-            java.util.Scanner scanner = new java.util.Scanner((System.in));
             System.out.println("\nPress ENTER to see a random student name...");
             System.out.print("Type any character and press ENTER to exit: ");
             String input = scanner.nextLine();
 
             if (!input.equals("")){
-                break;
+                endLoop = true;
             }
 
             System.out.println(students[number]);

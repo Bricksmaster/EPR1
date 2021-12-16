@@ -11,6 +11,15 @@ public class Car {
     private final int kW;
     private Person owner;
 
+    @Override
+    public String toString() {
+        return "Car{" +
+                "model='" + model + '\'' +
+                ", kW=" + kW +
+                ", owner=" + owner +
+                '}';
+    }
+
     public Person getOwner() {
         return owner;
     }

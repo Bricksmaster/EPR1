@@ -17,8 +17,13 @@ public class Main {
         garage.addCar(car1);
         garage.addCar(car2);
 
-        for (int i = 0; i < garage.getCarList().toArray().length; i++) {
-            System.out.println(garage.getCarList().get(i).getModel() + " | " + garage.getCarList().get(i).getOwner().getName());
+//        for (int i = 0; i < garage.getCarList().toArray().length; i++) {
+//            System.out.println(garage.getCarList().get(i).getModel() + " | " + garage.getCarList().get(i).getOwner().getName());
+//        }
+        //For Each verwenden, da einfacher:
+        for (Car car : garage.getCarList()){
+            //System.out.println(car);
+            System.out.println(car.getModel() + " | " + car.getOwner().getName());
         }
 
     }

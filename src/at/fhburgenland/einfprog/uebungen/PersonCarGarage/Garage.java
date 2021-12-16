@@ -26,6 +26,7 @@ public class Garage {
     }
 
     public ArrayList<Car> getCarList() {
-        return carList;
+        return (ArrayList<Car>) carList.clone();
+       // return carList;
     }
 }

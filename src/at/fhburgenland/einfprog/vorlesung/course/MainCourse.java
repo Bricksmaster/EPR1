@@ -12,7 +12,7 @@ public class MainCourse {
         Course epr1 = new Course("EPR1");
         epr1.addStudent(new Person("Daniel"));
 
-        epr1.addStudent(new Person("Sophie"));
+        epr1.addStudent(new Person(null));
 
         for (Person student : epr1.getStudents()){
             System.out.println(student.getName());

@@ -6,10 +6,13 @@
 
 package at.fhburgenland.einfprog.vorlesung.course;
 
+import java.util.Objects;
+
 public class Person {
     private final String name;
 
     public Person(String name) {
+        Objects.requireNonNull(name, "Name must not be null");
         this.name = name;
     }
 

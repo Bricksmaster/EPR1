@@ -6,8 +6,6 @@
 
 package at.fhburgenland.einfprog.hausuebung;
 
-import java.util.Scanner;
-
 public class ToBinary {
 
     static void toBinary(int number)

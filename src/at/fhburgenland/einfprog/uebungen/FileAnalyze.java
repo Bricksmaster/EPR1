@@ -32,14 +32,15 @@ public class FileAnalyze {
                 if(Character.isUpperCase(c)){
                     capitalcounter++;
                 }
-                else if (Character.isLowerCase(c)){
+                if (Character.isLowerCase(c)){
                     charcounter++;
                 }
-                else if (Character.isDigit(c)){
+                if (Character.isDigit(c)){
                     digitcounter++;
                 }
             }
         }
+        System.out.println("lines: " + linecounter);
         System.out.println("lower characters: " + charcounter);
         System.out.println("capital characters: " + capitalcounter);
         System.out.println("number characters: " + digitcounter);

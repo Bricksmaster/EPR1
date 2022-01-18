@@ -47,9 +47,8 @@ public class NameListAdmin {
 
     static void readNamesfromList(){
         File f = new File("data/namelist.txt");
-        Scanner myReader = null;
         try {
-            myReader = new Scanner(f);
+            Scanner myReader = new Scanner(f);
             while (myReader.hasNextLine()){
                 String line = myReader.nextLine();
                 names.add(line);
